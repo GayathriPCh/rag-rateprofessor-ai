@@ -107,12 +107,12 @@ export default function ChatbotPage() {
       >
         <Link href="/" passHref>
           <motion.button
-            className="absolute top-4 left-4 px-20 py-7 text-xl font-semibold text-black bg-gradient-to-r from-[#00fbff] to-[#3dffab] rounded-full transition-all duration-300 cursor-pointer flex items-center justify-center"
+            className="absolute top-4 left-4 px-6 py-3 text-lg font-semibold text-black bg-gradient-to-r from-[#00fbff] to-[#bcff3d] rounded-full transition-all duration-300 cursor-pointer flex items-center justify-center"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <span className="mr-2">Back to Home</span>
-            <FiArrowLeft size={30} />
+            <FiArrowLeft />
           </motion.button>
         </Link>
         <motion.div
